@@ -3,8 +3,8 @@
  * Post (Default)
  * 
  * 
- * @package    DEP
- * @since      DEP 0.2.4
+ * @package    Xtiv
+ * @since      Xtiv 0.0.1
  */ 
 
 $image = $args['image'];

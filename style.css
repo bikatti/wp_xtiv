@@ -1,14 +1,13 @@
 /*
-Theme Name: DEP (Theme Child)
+Theme Name: Xtiv
 Author: ALAXA TECH
 Author URI: https://github.com/ALAXA-TECH
-Template: base-theme
-Description: Sitio web de 'DEP'
+Description: Sitio web de 'Xtiv'
 Requires PHP: 5.7
-Version: 0.2.16
+Version: 0.0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: Landing page, DEP, Sitio Web, Escuelas
+Tags: Landing page, Portafolio, Backend, Sitio Web, Blog
 */
 /* Reboot Codes - Based on normalize.css v5.0.0
 **********************/
@@ -985,6 +984,71 @@ button:focus {
   outline: none;
 }
 
+/* ------------------------------------
+ #              Animation
+ -------------------------------------- */
+.slide-top {
+  animation: 1.5s ease 0s normal forwards 1 slide-top;
+  opacity: 1;
+}
+
+.slide-right {
+  animation: 0.6s ease-out 0s normal forwards 1 slide-right;
+  opacity: 1;
+}
+
+@keyframes slide-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-right {
+  0% {
+    transform: translateX(20%);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes mmfadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes mmfadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes mmslideIn {
+  from {
+    transform: translateY(15%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes mmslideOut {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10%);
+  }
+}
 /* ------------------------------------
  #                Card
  -------------------------------------- */

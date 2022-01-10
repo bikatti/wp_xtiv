@@ -3,8 +3,8 @@
  * Archive
  * 
  * 
- * @package    DEP
- * @since      DEP 0.2.4
+ * @package    Xtiv
+ * @since      Xtiv 0.0.1
  */ 
 
 get_header( );
@@ -13,25 +13,9 @@ get_header( );
 <main class="page archive">
     <?php        
     if (have_posts()) {
-        get_template_part( 'template-parts/query/search');
-
-        get_template_part( 'template-parts/query/library');
-
-        get_template_part( 'template-parts/query/news');
-
-        get_template_part( 'template-parts/query/webinar');
-
-        get_template_part( 'template-parts/query/aula');
+        get_template_part( 'template-parts/query/blog');
     } else {
-        get_template_part( 'template-parts/query/search');
-        
-        get_template_part( 'template-parts/query/library');
-
-        get_template_part( 'template-parts/query/news');
-
-        get_template_part( 'template-parts/query/webinar');
-
-        get_template_part( 'template-parts/query/aula');
+        get_template_part( 'template-parts/query/blog');
     }
     ?>
 </main>

@@ -3,21 +3,21 @@
  * The template for displaying the footer
  *
  *
- * @package    DEP
- * @since      DEP 0.1.0
+ * @package    Xtiv
+ * @since      Xtiv 0.0.1
  */
 
 /**
  * Burger menu is disabled by default, but it is activated
  * by an addEventListener of a javascript function
  */
-get_template_part( 'template-parts/header/burguer' ); 
+// get_template_part( 'template-parts/header/burguer' ); 
 
 
 /**
- * Search Modal
+ * Contact Modal
  */
-get_template_part( 'template-parts/header/search' );
+get_template_part( 'template-parts/header/contact' );
 
 /**
  * The Footer
